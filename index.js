@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
     function jump() {
         let count = 0
         if (position > 5) return
-        console.log(count)
         let timerId = setInterval(function () {
             
             //move down
@@ -88,7 +87,6 @@ document.addEventListener("DOMContentLoaded", () => {
         cloud1Position -= 0.2
         cloud2Position -= 0.1
         cloud3Position -= 0.3
-        console.log(cloud1Position)
         if (cloud1Position < -30) {
             cloud1Position = 100
         }
