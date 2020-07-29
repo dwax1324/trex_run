@@ -1,0 +1,108 @@
+body{
+    overflow: hidden;
+    background-color: black;
+
+}
+
+.cloud1{
+
+    height:150px;
+    width: 300px;
+    background:url(cloud1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:25%;
+
+}
+
+.cloud2{
+    height:150px;
+    width: 300px;
+    background:url(cloud2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:10%;
+
+}
+.cloud3{
+    height:150px;
+    width: 300px;
+    background:url(cloud2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:35%;
+
+}
+
+.dino{
+    position: absolute;
+    width :100px;
+    height: 130px;
+    bottom: 10px;
+    background: url('snowman.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+/* 
+.head{
+    width:60px;
+    height:60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.body{
+    width:80px;
+    height:80px;
+    background-color: white;
+    border-radius: 50%;
+
+} */
+
+
+.obstacle{
+    position: absolute;
+    width:20px;
+    height:45px;
+    bottom:2px;
+}
+
+#over{
+    color:white;
+    position: absolute;
+    left:0%;
+    top:45%;
+}
+
+
+#greeting{
+    color:white;
+    position: absolute;
+    left:0%;
+    top:50%;
+}
+
+.menu{
+    position: absolute;
+    height:100px;
+    width:150px;
+    background-color: white;
+    right:0px;
+}
+
+
+.score{
+    font-size:50px;
+    text-align: end;
+    font-family: cursive;
+
+}
+
+.scoreText{
+    font-size: 25px;
+    font-weight: 900;
+}
